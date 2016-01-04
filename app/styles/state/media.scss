@@ -1,0 +1,90 @@
+@media screen and (max-width: 320px) {
+	#datepicker {
+		.ui-datepicker-inline {
+			width: 220px;
+		}
+	}
+	.produto {
+		width: 219px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.popover.bottom {
+		margin-top: 15px;
+		min-width: 350px;
+	}
+	#datepicker {
+		margin-top: 15px;
+		.ui-datepicker-inline {
+			margin-left: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#datepicker {
+		margin-top: 0;
+		.ui-datepicker-inline {
+			width: auto;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) and (min-width: 1004px) {
+	#datepicker {
+		margin-top: 0;
+		.ui-datepicker-inline {
+			width: auto;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.content {
+		padding: 20px 5px 0 60px;
+	}
+	.fa {
+		font-size: 25px;
+	}
+	.main-menu:hover,nav.main-menu.expanded {
+		width: 250px;
+	}
+	.main-menu {
+		width: 60px;
+		height: auto;
+	}
+	.main-menu li {
+		width: 250px;
+		height: 60px;
+	}
+	.main-menu  {
+		li {
+			> a {
+				font-size: 14px;
+			}
+		}
+	}
+	#datepicker {
+		margin-top: 0;
+		.ui-datepicker-inline {
+			width: auto;
+			margin-left: 50px;
+		}
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.content {
+		padding: 20px 10px 0 260px;
+	}
+	#datepicker {
+		.ui-datepicker-inline {
+			width: auto;
+			margin-left: 23px;
+		}
+	}
+	.main-menu {
+		width: 250px;
+	}
+}
